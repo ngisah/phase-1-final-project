@@ -10,4 +10,24 @@ header {
   background-color: #3f69b8;
   display: flex;
 }
+h1 {
+  color: rgb(250, 250, 250);
+  align-self: center;
+  margin-left: 28rem;
+}
+.search {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+  margin: 3rem;
+  margin-right: 20rem;
+  padding: 0.5rem 1rem;
+}
+.search::placeholder {
+  color: #202022;
+}
+.search:focus {
+  background-color: #050505;
+  outline: none;
+}
 
