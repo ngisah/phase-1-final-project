@@ -30,4 +30,53 @@ h1 {
   background-color: #050505;
   outline: none;
 }
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie {
+  background-color: #01020a;
+  border-radius: 3px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  justify-content: center;
+  align-content: center;
+  width: 265px;
+}
+.movie img {
+  width: 100%;
+}
+.movie_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #eee;
+  padding: 0.5rem 1rem 1rem;
+  
+}
+.movie-info h3 {
+  margin: 0;
+}
+.movie-info span {
+  background-color: #030411;
+  padding: 0.25rem 0.8rem;
+  border-radius: 3px;
+  font-weight: bold; 
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  max-height: 100%;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(90%);
+  transition: transform 0.5s ease-in;
+}
 

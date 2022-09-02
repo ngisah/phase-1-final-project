@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             movieDesc.innerHTML = `<img src="${img + poster_path}" alt="${title}"/>
 
-            <div class="movie-info">
+            <div class="movie_info">
                 <h3>${title}</h3>
-                <span class="vote_average">${vote_average}</span>
-                <span class="release_date">${release_date}</span>
+                <span class="vote_average">Rating: ${vote_average}</span>
+                <span class="release_date">Release date: ${release_date}</span>
             </div>
             <div class="overview">
                 <h3>Overview:</h3>
