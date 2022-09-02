@@ -57,11 +57,11 @@ div {
   padding: 0.5rem 1rem 1rem;
   
 }
-.movie-info h3 {
+.movie_info h3 {
   margin: 0;
 }
-.movie-info span {
-  background-color: #030411;
+.movie_info span {
+  background-color: #01020a;
   padding: 0.25rem 0.8rem;
   border-radius: 3px;
   font-weight: bold; 
