@@ -79,4 +79,22 @@ div {
   transform: translateY(90%);
   transition: transform 0.5s ease-in;
 }
-
+.overview h3 {
+  margin-top: 0;
+}
+.movie:hover .overview {
+  transform: translateY(0);
+}
+#comment-section {
+  margin: 3rem;
+  margin-right: 20rem;
+}
+#post,
+#post {
+  border: none;
+  border-radius: 5px;
+  margin: 3rem;
+}
+#post:hover {
+  background-color: rgb(36, 29, 33);
+}
