@@ -59,11 +59,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const post = document.querySelector("#post");
     post.addEventListener("click", function () {
+
         const commentBox = document.querySelector("#comment-box").value;
+        commentBox.value=''
         const li = document.createElement("li");
         const text = document.createTextNode(commentBox);
         li.appendChild(text);
         document.getElementById("unordered").appendChild(li);
-        commentBox.reset();
+        
     });
 });
